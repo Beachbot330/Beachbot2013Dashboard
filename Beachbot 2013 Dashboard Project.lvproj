@@ -24,6 +24,7 @@
 			<Item Name="DStoPCPacketTypeDef.ctl" Type="VI" URL="../DStoPCPacketTypeDef.ctl"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
+		<Item Name="BB_Check_Camera_IP_Change.vi" Type="VI" URL="../BB_Check_Camera_IP_Change.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
@@ -175,16 +176,16 @@
 			</Item>
 			<Item Name="Get All Users Directory.vi" Type="VI" URL="../Get All Users Directory.vi"/>
 			<Item Name="FPS Calculator.vi" Type="VI" URL="../FPS Calculator.vi"/>
-			<Item Name="sendCenterTarget.vi" Type="VI" URL="../../2013DashboardAlpha/sendCenterTarget.vi"/>
-			<Item Name="Draw Filled Rect.vi" Type="VI" URL="../../2013DashboardAlpha/Draw Filled Rect.vi"/>
-			<Item Name="Compute Distance.vi" Type="VI" URL="../../2013DashboardAlpha/Compute Distance.vi"/>
-			<Item Name="Normalized Range Compare.vi" Type="VI" URL="../../2013DashboardAlpha/Normalized Range Compare.vi"/>
-			<Item Name="Rectangularity Score.vi" Type="VI" URL="../../2013DashboardAlpha/Rectangularity Score.vi"/>
-			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../../2013DashboardAlpha/Aspect Ratio Score.vi"/>
-			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../../2013DashboardAlpha/Sorted Particle Report.vi"/>
-			<Item Name="Score Particles.vi" Type="VI" URL="../../2013DashboardAlpha/Score Particles.vi"/>
-			<Item Name="Compute HSL Color Ranges.vi" Type="VI" URL="../../2013DashboardAlpha/Compute HSL Color Ranges.vi"/>
-			<Item Name="Vision Proc (SubVI).vi" Type="VI" URL="../../2013DashboardAlpha/Vision Proc (SubVI).vi"/>
+			<Item Name="sendCenterTarget.vi" Type="VI" URL="../vision/sendCenterTarget.vi"/>
+			<Item Name="Draw Filled Rect.vi" Type="VI" URL="../vision/Draw Filled Rect.vi"/>
+			<Item Name="Compute Distance.vi" Type="VI" URL="../vision/Compute Distance.vi"/>
+			<Item Name="Normalized Range Compare.vi" Type="VI" URL="../vision/Normalized Range Compare.vi"/>
+			<Item Name="Rectangularity Score.vi" Type="VI" URL="../vision/Rectangularity Score.vi"/>
+			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../vision/Aspect Ratio Score.vi"/>
+			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../vision/Sorted Particle Report.vi"/>
+			<Item Name="Score Particles.vi" Type="VI" URL="../vision/Score Particles.vi"/>
+			<Item Name="Compute HSL Color Ranges.vi" Type="VI" URL="../vision/Compute HSL Color Ranges.vi"/>
+			<Item Name="Vision Proc (SubVI).vi" Type="VI" URL="../vision/Vision Proc (SubVI).vi"/>
 			<Item Name="BB_CameraOpen.vi" Type="VI" URL="../BB_CameraOpen.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -218,7 +219,7 @@
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">FRC PC Dashboard</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">14</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">15</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">5</Property>
 				<Property Name="TgtF_internalName" Type="Str">FRC PC Dashboard</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{AEE2EF3D-7087-47D6-AEAE-9F87F896ED5E}</Property>
