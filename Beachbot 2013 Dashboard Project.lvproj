@@ -167,6 +167,11 @@
 				<Item Name="WPI_CameraSet Enum Sensor Property.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraSet Enum Sensor Property.vi"/>
 				<Item Name="WPI_CameraGet White Balance Values.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraGet White Balance Values.vi"/>
 				<Item Name="WPI_CameraSet White Balance.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraSet White Balance.vi"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
+				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
+				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -183,10 +188,12 @@
 			<Item Name="Rectangularity Score.vi" Type="VI" URL="../vision/Rectangularity Score.vi"/>
 			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../vision/Aspect Ratio Score.vi"/>
 			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../vision/Sorted Particle Report.vi"/>
-			<Item Name="Score Particles.vi" Type="VI" URL="../vision/Score Particles.vi"/>
 			<Item Name="Compute HSL Color Ranges.vi" Type="VI" URL="../vision/Compute HSL Color Ranges.vi"/>
 			<Item Name="Vision Proc (SubVI).vi" Type="VI" URL="../vision/Vision Proc (SubVI).vi"/>
 			<Item Name="BB_CameraOpen.vi" Type="VI" URL="../BB_CameraOpen.vi"/>
+			<Item Name="BB_Score_Particles.vi" Type="VI" URL="../vision/BB_Score_Particles.vi"/>
+			<Item Name="BB_Vertical_Analysis.vi" Type="VI" URL="../vision/BB_Vertical_Analysis.vi"/>
+			<Item Name="BB_Label_Vertical.vi" Type="VI" URL="../vision/BB_Label_Vertical.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
