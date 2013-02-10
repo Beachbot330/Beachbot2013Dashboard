@@ -192,7 +192,6 @@
 			<Item Name="Vision Proc (SubVI).vi" Type="VI" URL="../vision/Vision Proc (SubVI).vi"/>
 			<Item Name="BB_CameraOpen.vi" Type="VI" URL="../BB_CameraOpen.vi"/>
 			<Item Name="BB_Score_Particles.vi" Type="VI" URL="../vision/BB_Score_Particles.vi"/>
-			<Item Name="BB_Vertical_Analysis.vi" Type="VI" URL="../vision/BB_Vertical_Analysis.vi"/>
 			<Item Name="BB_Label_Vertical.vi" Type="VI" URL="../vision/BB_Label_Vertical.vi"/>
 			<Item Name="BB_Aspect_ratio_score.vi" Type="VI" URL="../vision/BB_Aspect_ratio_score.vi"/>
 			<Item Name="BB_Compute_Distance.vi" Type="VI" URL="../vision/BB_Compute_Distance.vi"/>
