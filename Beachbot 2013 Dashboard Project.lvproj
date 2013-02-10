@@ -22,6 +22,7 @@
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="DStoPCPacketTypeDef.ctl" Type="VI" URL="../DStoPCPacketTypeDef.ctl"/>
+			<Item Name="AutonomousSelection.ctl" Type="VI" URL="../../AutonomousSelection.ctl"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="BB_Check_Camera_IP_Change.vi" Type="VI" URL="../BB_Check_Camera_IP_Change.vi"/>
@@ -168,6 +169,12 @@
 				<Item Name="WPI_CameraGet White Balance Values.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraGet White Balance Values.vi"/>
 				<Item Name="WPI_CameraSet White Balance.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraSet White Balance.vi"/>
 				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
+				<Item Name="SD Write String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write String.vi"/>
+				<Item Name="SD Read String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read String Array.vi"/>
+				<Item Name="SD Read String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read String.vi"/>
+				<Item Name="SD Write String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write String Array.vi"/>
+				<Item Name="NT Write String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write String Array.vi"/>
+				<Item Name="NT Write Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write Boolean.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -178,8 +185,6 @@
 			<Item Name="Get All Users Directory.vi" Type="VI" URL="../Get All Users Directory.vi"/>
 			<Item Name="FPS Calculator.vi" Type="VI" URL="../FPS Calculator.vi"/>
 			<Item Name="sendCenterTarget.vi" Type="VI" URL="../vision/sendCenterTarget.vi"/>
-			<Item Name="Draw Filled Rect.vi" Type="VI" URL="../vision/Draw Filled Rect.vi"/>
-			<Item Name="Compute Distance.vi" Type="VI" URL="../vision/Compute Distance.vi"/>
 			<Item Name="Normalized Range Compare.vi" Type="VI" URL="../vision/Normalized Range Compare.vi"/>
 			<Item Name="Rectangularity Score.vi" Type="VI" URL="../vision/Rectangularity Score.vi"/>
 			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../vision/Sorted Particle Report.vi"/>
@@ -190,6 +195,11 @@
 			<Item Name="BB_Vertical_Analysis.vi" Type="VI" URL="../vision/BB_Vertical_Analysis.vi"/>
 			<Item Name="BB_Label_Vertical.vi" Type="VI" URL="../vision/BB_Label_Vertical.vi"/>
 			<Item Name="BB_Aspect_ratio_score.vi" Type="VI" URL="../vision/BB_Aspect_ratio_score.vi"/>
+			<Item Name="BB_Compute_Distance.vi" Type="VI" URL="../vision/BB_Compute_Distance.vi"/>
+			<Item Name="BB_Rectangle_edge_discriminator.vi" Type="VI" URL="../vision/BB_Rectangle_edge_discriminator.vi"/>
+			<Item Name="BB_Label_Horiz.vi" Type="VI" URL="../vision/BB_Label_Horiz.vi"/>
+			<Item Name="AutonomousSelector.lvlib" Type="Library" URL="../AutonomousSelector.lvlib"/>
+			<Item Name="DecodeNTType.vi" Type="VI" URL="../DecodeNTType.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
@@ -222,7 +232,7 @@
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">FRC PC Dashboard</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">16</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">17</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">5</Property>
 				<Property Name="TgtF_internalName" Type="Str">FRC PC Dashboard</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{AEE2EF3D-7087-47D6-AEAE-9F87F896ED5E}</Property>
