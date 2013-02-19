@@ -214,6 +214,8 @@
 			<Item Name="BB_Label_Horiz.vi" Type="VI" URL="../vision/BB_Label_Horiz.vi"/>
 			<Item Name="AutonomousSelector.lvlib" Type="Library" URL="../AutonomousSelector.lvlib"/>
 			<Item Name="DecodeNTType.vi" Type="VI" URL="../DecodeNTType.vi"/>
+			<Item Name="targetVariables.ctl" Type="VI" URL="../typeDefs/targetVariables.ctl"/>
+			<Item Name="BB_SendAnglesDistanceTime.vi" Type="VI" URL="../vision/BB_SendAnglesDistanceTime.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
@@ -246,7 +248,7 @@
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">FRC PC Dashboard</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">24</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">25</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">5</Property>
 				<Property Name="TgtF_internalName" Type="Str">FRC PC Dashboard</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{AEE2EF3D-7087-47D6-AEAE-9F87F896ED5E}</Property>
