@@ -28,6 +28,8 @@
 		<Item Name="BB_Check_Camera_IP_Change.vi" Type="VI" URL="../BB_Check_Camera_IP_Change.vi"/>
 		<Item Name="BB_Check_Gyro_Direction.vi" Type="VI" URL="../BB_Check_Gyro_Direction.vi"/>
 		<Item Name="Angle.vi" Type="VI" URL="../globals/Angle.vi"/>
+		<Item Name="targetVariables.ctl" Type="VI" URL="../typeDefs/targetVariables.ctl"/>
+		<Item Name="BB_SendAnglesDistanceTime.vi" Type="VI" URL="../vision/BB_SendAnglesDistanceTime.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
