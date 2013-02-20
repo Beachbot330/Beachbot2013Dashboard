@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="12008004">
+	<Property Name="varPersistentID:{C665CB45-526C-4D14-ADB7-8C149FE375C3}" Type="Ref">/My Computer/Untitled Library 1.lvlib/Variable</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -30,6 +31,11 @@
 		<Item Name="Angle.vi" Type="VI" URL="../globals/Angle.vi"/>
 		<Item Name="targetVariables.ctl" Type="VI" URL="../typeDefs/targetVariables.ctl"/>
 		<Item Name="BB_SendAnglesDistanceTime.vi" Type="VI" URL="../vision/BB_SendAnglesDistanceTime.vi"/>
+		<Item Name="BB_CameraSet Brightness.vi" Type="VI" URL="../BB_CameraSet Brightness.vi"/>
+		<Item Name="cameraUpdate.ctl" Type="VI" URL="../typeDefs/cameraUpdate.ctl"/>
+		<Item Name="BB_CameraInit.vi" Type="VI" URL="../BB_CameraInit.vi"/>
+		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Untitled Library 1.lvlib"/>
+		<Item Name="BB_LoadSettings.vi" Type="VI" URL="../BB_LoadSettings.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
@@ -156,11 +162,9 @@
 				<Item Name="WPI_CameraIssue Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraIssue Get.vi"/>
 				<Item Name="WPI_CameraSet Image Appearance Property.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraSet Image Appearance Property.vi"/>
 				<Item Name="WPI_CameraDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraDevRef.ctl"/>
-				<Item Name="WPI_CameraSet Numeric Sensor Property.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraSet Numeric Sensor Property.vi"/>
 				<Item Name="WPI_CameraSettings Control.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraSettings Control.ctl"/>
 				<Item Name="WPI_CameraSettings Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraSettings Operations.ctl"/>
 				<Item Name="WPI_CameraManage Camera Settings.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraManage Camera Settings.vi"/>
-				<Item Name="WPI_CameraSet Brightness.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraSet Brightness.vi"/>
 				<Item Name="WPI_CameraGet Acquire Image Notifier Internal.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraGet Acquire Image Notifier Internal.vi"/>
 				<Item Name="WPI_CameraERRAlreadyOpened.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraERRAlreadyOpened.vi"/>
 				<Item Name="WPI_CameraExposure Priority Values.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraExposure Priority Values.ctl"/>
@@ -216,8 +220,6 @@
 			<Item Name="BB_Label_Horiz.vi" Type="VI" URL="../vision/BB_Label_Horiz.vi"/>
 			<Item Name="AutonomousSelector.lvlib" Type="Library" URL="../AutonomousSelector.lvlib"/>
 			<Item Name="DecodeNTType.vi" Type="VI" URL="../DecodeNTType.vi"/>
-			<Item Name="targetVariables.ctl" Type="VI" URL="../typeDefs/targetVariables.ctl"/>
-			<Item Name="BB_SendAnglesDistanceTime.vi" Type="VI" URL="../vision/BB_SendAnglesDistanceTime.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
