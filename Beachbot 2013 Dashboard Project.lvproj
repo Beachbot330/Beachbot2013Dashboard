@@ -1,6 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="12008004">
-	<Property Name="varPersistentID:{C665CB45-526C-4D14-ADB7-8C149FE375C3}" Type="Ref">/My Computer/Untitled Library 1.lvlib/Variable</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -34,7 +33,6 @@
 		<Item Name="BB_CameraSet Brightness.vi" Type="VI" URL="../BB_CameraSet Brightness.vi"/>
 		<Item Name="cameraUpdate.ctl" Type="VI" URL="../typeDefs/cameraUpdate.ctl"/>
 		<Item Name="BB_CameraInit.vi" Type="VI" URL="../BB_CameraInit.vi"/>
-		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Untitled Library 1.lvlib"/>
 		<Item Name="BB_LoadSettings.vi" Type="VI" URL="../BB_LoadSettings.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
