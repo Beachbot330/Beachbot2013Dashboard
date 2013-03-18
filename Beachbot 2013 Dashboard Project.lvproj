@@ -34,6 +34,9 @@
 		<Item Name="cameraUpdate.ctl" Type="VI" URL="../typeDefs/cameraUpdate.ctl"/>
 		<Item Name="BB_CameraInit.vi" Type="VI" URL="../BB_CameraInit.vi"/>
 		<Item Name="BB_LoadSettings.vi" Type="VI" URL="../BB_LoadSettings.vi"/>
+		<Item Name="moving_average.vi" Type="VI" URL="../moving_average.vi"/>
+		<Item Name="Moving Average.vi" Type="VI" URL="../Moving Average.vi"/>
+		<Item Name="BB_Draw_rect.vi" Type="VI" URL="../BB_Draw_rect.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
@@ -250,7 +253,7 @@
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">FRC PC Dashboard</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">29</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">30</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">5</Property>
 				<Property Name="TgtF_internalName" Type="Str">FRC PC Dashboard</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{AEE2EF3D-7087-47D6-AEAE-9F87F896ED5E}</Property>
