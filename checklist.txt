@@ -1,0 +1,9 @@
+
+pickup up/down (8/9)
+Arm Low/Pickup/Climbing/High (SD)
+Shoot Low (2)
+Shoot (1)
+Stop Shoot Low (6)
+Pickup On/Off (7/6)
+Joystick Buttons:
+4/8
