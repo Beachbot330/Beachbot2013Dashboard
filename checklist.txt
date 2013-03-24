@@ -1,9 +1,33 @@
-
+Close Pneumatic Release Valve
 pickup up/down (8/9)
 Arm Low/Pickup/Climbing/High (SD)
 Shoot Low (2)
 Shoot (1)
 Stop Shoot Low (6)
 Pickup On/Off (7/6)
-Joystick Buttons:
-4/8
+Check wheel shaft collar/bolts									
+Joystick Buttons:4/8
+
+
+
+
+
+
+
+
+
+
+
+LIST OF BUTTON FUNCTIONS
+
+1 - Fire
+2 - Move arm to shoot, Lower  Pickup (delay if necessary), Turn on Shooter
+3 - Slow Pickup
+4 - Move arm to start position
+5 - Arm to climb position, Raise pickup (no delay)
+6 - Drop pickup, Turn off pickup, Rotate arm to pickup  (after delay)
+7 - Drop pickup, Run Pickup, Rotate arm to pickup (after delay)
+8 - Pickup Drop / Raise toggle
+9 - Blocker Raise / Drop Lowwer
+10 - Reverse Pickup
+11 - Climb
