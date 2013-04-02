@@ -242,13 +242,13 @@
 			<Item Name="BB_Score_Particles.vi" Type="VI" URL="../vision/BB_Score_Particles.vi"/>
 			<Item Name="BB_Label_Vertical.vi" Type="VI" URL="../vision/BB_Label_Vertical.vi"/>
 			<Item Name="BB_Aspect_ratio_score.vi" Type="VI" URL="../vision/BB_Aspect_ratio_score.vi"/>
-			<Item Name="BB_Compute_Distance.vi" Type="VI" URL="../vision/BB_Compute_Distance.vi"/>
 			<Item Name="BB_Rectangle_edge_discriminator.vi" Type="VI" URL="../vision/BB_Rectangle_edge_discriminator.vi"/>
 			<Item Name="BB_Label_Horiz.vi" Type="VI" URL="../vision/BB_Label_Horiz.vi"/>
 			<Item Name="AutonomousSelector.lvlib" Type="Library" URL="../AutonomousSelector.lvlib"/>
 			<Item Name="DecodeNTType.vi" Type="VI" URL="../DecodeNTType.vi"/>
 			<Item Name="Open Excel Report.vi" Type="VI" URL="../Open Excel Report.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="BB_Compute_Distance_fixed.vi" Type="VI" URL="../vision/BB_Compute_Distance_fixed.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
@@ -281,7 +281,7 @@
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">FRC PC Dashboard</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">50</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">51</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">5</Property>
 				<Property Name="TgtF_internalName" Type="Str">FRC PC Dashboard</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{AEE2EF3D-7087-47D6-AEAE-9F87F896ED5E}</Property>
